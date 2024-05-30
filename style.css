@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('1.png');
+  background-size: cover;
+  background-position: center;
+}
+.wrapper{
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.2);
+  backdrop-filter:blur(20px);
+  color: #ffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.wrapper h1{
+  text-align: center;
+  font-size: 36px;
+}
+
+.wrapper .class-input{
+  width: 100%;
+  height: 50px;
+  position: relative;
+  margin: 30px 0;
+}
+
+.class-input input{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px ;
+}
+.class-input input::placeholder{
+  color: #ffff;
+}
+
+.class-input i{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) ;
+  font-size: 20px;
+}
+
+.wrapper .remember-forget{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0px 15px;
+}
+
+.remember-forget label input{
+  accent-color: #ffff;
+  margin-right: 3px;
+  text-decoration: none;
+}
+
+.remember-forget a{
+
+  text-decoration: none;
+  color: #ffff;
+}
+
+.remember-forget a:hover{
+  text-decoration: underline;
+}
+
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.wrapper .register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px ;
+}
+
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover{
+  text-decoration: underline;
+
+}
